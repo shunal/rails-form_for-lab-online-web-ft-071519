@@ -2,7 +2,8 @@ class StudentsController < ApplicationController
   def index 
   end 
   
-  def show 
+  def show
+    @student = Student.find(params[:id])
   end 
   
   def new 
