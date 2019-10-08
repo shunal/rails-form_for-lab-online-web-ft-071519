@@ -2,7 +2,8 @@ class SchoolClassesController < ApplicationController
   def index 
   end 
   
-  def show 
+  def show
+    @school_class = SchoolCl
   end 
   
   def new 
